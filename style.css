@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+
+:root {
+    /* ## Colors */
+
+    /* ### Primary */
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+
+    /* ### Neutral */
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+
+/* css reset */
+/*
+1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*
+    2. Remove default margin
+  */
+* {
+    margin: 0;
+    font-size: inherit;
+}
+
+/*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*
+    5. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/*
+    6. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/*
+    7. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+
+
+
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    min-height: 100vh;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--Dark-Grayish-Blue);
+    display: grid;
+    place-content: center;
+    text-align: center;
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main {
+    margin: 32px;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+/* ------- section one ------- */
+
+.section-one {
+    margin-top: 92px;
+}
+
+.section-one img {
+    margin: 0 auto 60px;
+}
+
+.section-one h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 38px;
+}
+
+.section-one p {
+    font-size: 16.2px;
+    color: var(--Grayish-Blue);
+    margin-bottom: 50px;
+    line-height: 26px;
+}
+
+.section-one button {
+    border: none;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 13px 0;
+    border-radius: 100px;
+}
+
+.section-one .button-one {
+    background-color: var(--Strong-Cyan);
+    box-shadow: 0px 10px 10px hsla(171, 66%, 44%, 0.2);
+    margin-bottom: 26px;
+}
+
+.section-one .button-two {
+    background-color: var(--Light-Blue);
+    box-shadow: 0px 10px 10px hsla(233, 100%, 69%, 0.2);
+
+}
+
+
+
+
+/* ------- section two ------- */
+
+.section-two {
+    margin-top: 160px;
+}
+
+.section-two h2 {
+    font-size: 28px;
+    margin-bottom: 16px;
+    line-height: 38px;
+
+}
+
+.section-two p {
+    font-size: 16.2px;
+    color: var(--Grayish-Blue);
+    margin-bottom: 50px;
+
+}
+
+
+/* ------- features section ------- */
+
+.features-section {
+    margin-top: 64px;
+}
+
+.features-section img {
+    margin: 0 auto;
+}
+
+.feature {
+    margin-top: 50px;
+
+}
+
+.features-section h3 {
+    font-size: 24px;
+    margin-bottom: 13px;
+    line-height: 38px;
+}
+
+.features-section p {
+    font-size: 16.2px;
+    margin-top: -8px;
+
+}
+
+
+
+/* ------- section three ------- */
+
+.section-three {
+    margin-top: 134px;
+}
+
+.section-three h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    line-height: 38px;
+}
+
+.section-three p {
+    font-size: 16.2px;
+    color: var(--Grayish-Blue);
+    margin-bottom: 72px;
+}
+
+.section-three img {
+    margin: 0 auto;
+}
+
+
+/* ------- section four ------- */
+
+.section-four {
+    margin-top: 108px;
+}
+
+.section-four h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    line-height: 38px;
+}
+
+.section-four p {
+    font-size: 16.2px;
+    color: var(--Grayish-Blue);
+    margin-bottom: 85px;
+}
+
+
+/* ------- tools section ------- */
+
+.tools-section h3 {
+    font-size: 24px;
+    margin: 34px 0 20px;
+}
+
+.tools-section p {
+    margin-bottom: 64px;
+
+}
+
+.tool img {
+    margin: 0 auto;
+}
+
+
+
+
+
+/* ------- parteners-section ------- */
+
+.parteners-section {
+    display: grid;
+    place-content: center;
+    gap: 62px;
+    margin-top: 130px;
+    margin-bottom: 156px;
+}
+
+.parteners-section img {
+    margin: 0 auto;
+    width: 74%;
+}
+
+
+
+/* ------- section five ------- */
+
+.section-five {
+    margin-bottom: 180px;
+}
+
+.section-five h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    line-height: 38px;
+}
+
+.section-five p {
+    font-size: 16.2px;
+    color: var(--Grayish-Blue);
+    margin-bottom: 55px;
+}
+
+.section-five button {
+    border: none;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 13px 0;
+    border-radius: 100px;
+}
+
+.section-five .button-one {
+    background-color: var(--Strong-Cyan);
+    box-shadow: 0px 10px 10px hsla(171, 66%, 44%, 0.2);
+    margin-bottom: 26px;
+}
+
+.section-five .button-two {
+    background-color: var(--Light-Blue);
+    box-shadow: 0px 10px 10px hsla(233, 100%, 69%, 0.2);
+
+}
+
+
+
+
+
+/* ------- footer ------- */
+
+footer {
+    background-color: #f5f6f8;
+    margin: 0px;
+    padding: 60px 0;
+}
+
+footer .logo {
+    margin: 0 auto 40px;
+    width: 14%;
+
+}
+
+footer .links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+
+.links a {
+    text-decoration: none;
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 20px;
+}
+
+.links a:hover {
+    color: var(--Strong-Cyan);
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* ------- desktop view ------- */
+/* ------- section one ------- */
+
+@media (min-width:900px) {
+    body {
+        background-image: url(images/bg-header-desktop.png);
+        background-size: contain;
+    }
+
+    .section-one {
+        margin-top: 96px;
+    }
+
+    .section-one h1 {
+        font-size: 44px;
+        margin-top: 66px;
+        margin-bottom: 26px;
+    }
+
+    .section-one p {
+        font-size: 19px;
+        line-height: 30px;
+        letter-spacing: .5px;
+        max-width: 680px;
+        margin: 0px auto;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        max-width: 470px;
+        margin: 48px auto;
+    }
+
+    .section-one button {
+        font-size: 17px;
+        padding: 14px 0;
+    }
+
+    .section-one .button-one {
+        margin-bottom: 0px;
+    }
+}
+
+
+
+/* ------- section two ------- */
+
+@media (min-width:900px) {
+    .section-two {
+        margin-top: 154px;
+    }
+
+    .section-two h2 {
+        font-size: 36px;
+        margin-bottom: 22px;
+
+    }
+
+    .section-two p {
+        font-size: 19px;
+        line-height: 30px;
+        letter-spacing: .5px;
+        max-width: 680px;
+        margin: 0px auto;
+
+    }
+
+    /* ------- features section ------- */
+
+    .features-section {
+        margin-top: 80px;
+        display: flex;
+        gap: 110px;
+        position: relative;
+        transform: translate(-120px);
+    }
+
+    .feature {
+        text-align: left;
+    }
+
+    .features-section h3 {
+        font-size: 23.5px;
+    }
+
+    .features-section p {
+        font-size: 17px;
+        max-width: 400px;
+    }
+}
+
+
+
+/* ------- section Three ------- */
+
+@media (min-width:900px) {
+    .section-three {
+        margin-top: 154px;
+    }
+
+    .section-three h2 {
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+
+    .section-three p {
+        font-size: 19px;
+        line-height: 28px;
+        max-width: 730px;
+        margin: 0px auto 100px;
+    }
+
+
+}
+
+
+
+/* ------- section four ------- */
+
+@media (min-width:900px) {
+
+    .section-four {
+        margin-top: 75px;
+    }
+
+    .section-four h2 {
+        font-size: 36px;
+        margin-bottom: 24px;
+    }
+
+    .section-four p {
+        font-size: 19px;
+    }
+
+
+    /* ------- tools section ------- */
+
+    .tools-section {
+        margin-top: -16px;
+        display: flex;
+        justify-content: center;
+        gap: 22px;
+    }
+
+    .tools-section h3 {
+        font-size: 24px;
+        margin: 48px 0 12px;
+
+    }
+
+    .tools-section p {
+        font-size: 17px;
+        max-width: 380px;
+        line-height: 30px;
+    }
+
+
+
+
+
+    /* ------- parteners-section ------- */
+
+    .parteners-section {
+        display: flex;
+        place-content: center;
+        align-items: center;
+        gap: 62px;
+        margin-top: 80px;
+        margin-bottom: 156px;
+    }
+
+    .parteners-section img {
+        margin: 0 auto;
+        width: 170px;
+    }
+}
+
+
+
+/* ------- section five ------- */
+
+@media (min-width:900px) {
+
+    .section-five {
+        margin-bottom: 118px;
+    }
+
+    .section-five h2 {
+        font-size: 36px;
+        margin-bottom: 24px;
+    }
+
+    .section-five p {
+        font-size: 19px;
+        line-height: 28px;
+        max-width: 720px;
+        margin: 0px auto;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        max-width: 470px;
+        margin: 50px auto;
+    }
+
+    .section-five button {
+        font-size: 17px;
+        padding: 15px 0;
+    }
+
+    .section-five .button-one {
+        margin-bottom: 0px;
+    }
+}
+
+
+
+/* ------- footer ------- */
+
+@media (min-width:900px) {
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        align-items: center;
+        padding: 20px 50px;
+        width: 1440px;
+    }
+
+    footer .logo {
+        margin: auto auto auto 120px;
+        width: 55px;
+
+    }
+
+    footer .links {
+        display: grid;
+        text-align: left;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0px 0 -20px;
+        margin-left: 104px;
+    }
+
+
+    .links a:nth-child(1) {
+        order: 1;
+    }
+
+    .links a:nth-child(2) {
+        order: 3;
+    }
+
+    .links a:nth-child(3) {
+        order: 2;
+    }
+
+    .links a:nth-child(4) {
+        order: 5;
+    }
+
+    .links a:nth-child(5) {
+        order: 2;
+    }
+
+
+    .links a {
+        margin-left: -130px;
+    }
+
+    .social-media {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 24px;
+        margin-right: 110px;
+    }
+
+
+
+}
